@@ -1,6 +1,6 @@
 # 演算法練習
 
-新增 **80 種演算法與資料結構**，依問題類型整理。每種實作的適用條件與複雜度寫在函式旁，完整清單見 [CATALOG.md](CATALOG.md)，推導與除錯筆記見 [NOTES.md](NOTES.md)。
+演算法與資料結構依問題類型整理。每種實作的適用條件與複雜度寫在函式旁，完整清單見 [CATALOG.md](CATALOG.md)，推導與除錯筆記見 [NOTES.md](NOTES.md)。
 
 原有 booth_rotate.py、exgcd_inverse.py 與 kmp.py 保留。KMP 已修正匹配後沒有把位置加入答案的問題，支援重疊匹配。
 
@@ -42,4 +42,4 @@
 
 ## 進階與 CPE 題型
 
-再加入 26 個進階單元，含最大流、最小費用流、Hopcroft–Karp、Hungarian、LCA、延遲／持久化樹、Mo、掃描線、後綴陣列與競程 DP。七份 UVa 格式入口與六題官方樣例驗證見 [CPE_GUIDE.md](CPE_GUIDE.md)。這些包裝不重複計入 80 種。
+進階主題包含最大流、最小費用流、Hopcroft–Karp、Hungarian、LCA、延遲／持久化樹、Mo、掃描線、後綴陣列與競程 DP。UVa 執行方式與範例驗證見 [CPE_GUIDE.md](CPE_GUIDE.md)。

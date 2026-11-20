@@ -19,7 +19,7 @@
 | 10285 Longest Run on a Snowboard | 四方向嚴格下降；平台等高不能移動 | [題面](https://onlinejudge.org/external/102/10285.pdf) |
 | 10261 Ferry Loading | 船長公尺先轉公分；不能跳過車；還原左右停放 | [題面](https://onlinejudge.org/external/102/10261.pdf) |
 
-前六題已把官方 Sample Input/Output 納入 tests/test_cpe_formats.py。渡輪另用自訂多案例檢查格式、單位與容量；沒有把自訂案例稱為官方範例。
+官方範例的輸入與輸出收錄在 `tests/test_cpe_formats.py`。渡輪另用自訂多案例檢查格式、單位與容量；沒有把自訂案例稱為官方範例。
 
 ## 建議練習順序
 
