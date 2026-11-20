@@ -1,0 +1,184 @@
+[
+  {
+    "id": 55,
+    "title": "Edmonds–Karp 最大流",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "max_flow",
+    "complexity": "O(VE²)"
+  },
+  {
+    "id": 56,
+    "title": "帶負費用邊的逐次最短增廣路",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "min_cost_flow",
+    "complexity": "O(FVE)，拒絕可達負環"
+  },
+  {
+    "id": 57,
+    "title": "二分圖最大匹配",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "hopcroft_karp",
+    "complexity": "O(E√V)，DFS 使用遞迴"
+  },
+  {
+    "id": 58,
+    "title": "矩形最小成本指派",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "hungarian",
+    "complexity": "O(n²m)，n<=m"
+  },
+  {
+    "id": 59,
+    "title": "多重無向圖的橋",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "bridges",
+    "complexity": "O(V+E)"
+  },
+  {
+    "id": 60,
+    "title": "割點與 DFS 根特例",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "articulation_points",
+    "complexity": "O(V+E)"
+  },
+  {
+    "id": 61,
+    "title": "Hierholzer，平行邊與自環",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "euler_trail",
+    "complexity": "O(V+E)"
+  },
+  {
+    "id": 62,
+    "title": "Binary lifting 最近共同祖先",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "LowestCommonAncestor",
+    "complexity": "建表 O(n log n)，查詢 O(log n)"
+  },
+  {
+    "id": 63,
+    "title": "區間加值與總和的延遲標記",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "LazyRangeSum",
+    "complexity": "建樹 O(n)，操作 O(log n)"
+  },
+  {
+    "id": 64,
+    "title": "持久化前綴版本與區間第 k 小",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "PersistentKth",
+    "complexity": "建樹 O(n log n)，查詢 O(log n)"
+  },
+  {
+    "id": 65,
+    "title": "Mo 離線區間不同值數",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "mo_distinct",
+    "complexity": "O((n+q)√n)"
+  },
+  {
+    "id": 66,
+    "title": "掃描線與覆蓋長度樹求矩形聯集",
+    "source": "algorithms/advanced_geometry.py",
+    "entry": "rectangle_union_area",
+    "complexity": "O(n log n)"
+  },
+  {
+    "id": 67,
+    "title": "Monotone chain 凸包",
+    "source": "algorithms/advanced_geometry.py",
+    "entry": "convex_hull",
+    "complexity": "O(n log n)"
+  },
+  {
+    "id": 68,
+    "title": "分治最近點對，回傳平方距離",
+    "source": "algorithms/advanced_geometry.py",
+    "entry": "closest_pair_squared",
+    "complexity": "O(n log²n)"
+  },
+  {
+    "id": 69,
+    "title": "倍增後綴陣列",
+    "source": "algorithms/advanced_strings.py",
+    "entry": "suffix_array",
+    "complexity": "O(n log²n)"
+  },
+  {
+    "id": 70,
+    "title": "Kasai 相鄰後綴共同前綴",
+    "source": "algorithms/advanced_strings.py",
+    "entry": "lcp_array",
+    "complexity": "O(n)"
+  },
+  {
+    "id": 71,
+    "title": "Failure links 多模式匹配",
+    "source": "algorithms/advanced_strings.py",
+    "entry": "AhoCorasick",
+    "complexity": "建表與輸出相關；搜尋 O(n+matches)"
+  },
+  {
+    "id": 72,
+    "title": "Held–Karp 旅行推銷員",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "traveling_salesman",
+    "complexity": "O(n²2^n)"
+  },
+  {
+    "id": 73,
+    "title": "恰好走訪每點的有向路徑數",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "hamiltonian_paths",
+    "complexity": "O((V+E)2^V)"
+  },
+  {
+    "id": 74,
+    "title": "根深度 0 的最佳二元搜尋樹",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "optimal_bst",
+    "complexity": "O(n³)"
+  },
+  {
+    "id": 75,
+    "title": "區間 DP 切木棒",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "cutting_sticks",
+    "complexity": "O(n³)"
+  },
+  {
+    "id": 76,
+    "title": "不同子序列的計數",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "distinct_subsequences",
+    "complexity": "O(nm)"
+  },
+  {
+    "id": 77,
+    "title": "兩側容量與路徑還原",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "ferry_loading",
+    "complexity": "O(nC)"
+  },
+  {
+    "id": 78,
+    "title": "兩短一長的筷子配組",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "chopsticks",
+    "complexity": "O(kn)"
+  },
+  {
+    "id": 79,
+    "title": "人數限制的 bitset 分隊",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "tug_of_war",
+    "complexity": "O(nk ceil(S/w)) 位元字組運算"
+  },
+  {
+    "id": 80,
+    "title": "排序後四方向下降 DP",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "longest_descending_path",
+    "complexity": "O(hw log(hw))"
+  }
+]

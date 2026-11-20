@@ -1,6 +1,6 @@
 # 演算法練習
 
-新增 **54 種演算法與資料結構**，依問題類型整理。每種實作的適用條件與複雜度寫在函式旁，完整清單見 [CATALOG.md](CATALOG.md)，推導與除錯筆記見 [NOTES.md](NOTES.md)。
+新增 **80 種演算法與資料結構**，依問題類型整理。每種實作的適用條件與複雜度寫在函式旁，完整清單見 [CATALOG.md](CATALOG.md)，推導與除錯筆記見 [NOTES.md](NOTES.md)。
 
 原有 booth_rotate.py、exgcd_inverse.py 與 kmp.py 保留。KMP 已修正匹配後沒有把位置加入答案的問題，支援重疊匹配。
 
@@ -39,3 +39,7 @@
 排序對照 Python sorted，二分邊界對照 bisect，字串搜尋與回文對照窮舉；最短路交叉比較，MST 對照小圖的生成樹窮舉，背包與 LIS 對照子集合枚舉。固定亂數種子 684，失敗可重現。
 
 圖的頂點為 0 到 n-1，鄰接表需包含全部頂點；Dijkstra 禁止負權重。Quick Sort 與回溯的遞迴版適合中小輸入，極端資料需考慮 Python 遞迴深度。這些範例著重理解，不是可直接套用任何題目的萬用模板。
+
+## 進階與 CPE 題型
+
+再加入 26 個進階單元，含最大流、最小費用流、Hopcroft–Karp、Hungarian、LCA、延遲／持久化樹、Mo、掃描線、後綴陣列與競程 DP。七份 UVa 格式入口與六題官方樣例驗證見 [CPE_GUIDE.md](CPE_GUIDE.md)。這些包裝不重複計入 80 種。

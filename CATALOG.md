@@ -1,4 +1,4 @@
-# 54 種演算法與資料結構
+# 80 種演算法與資料結構
 
 所有 API 從 repo 根目錄匯入 algorithms。n/m 為輸入長度，k 為值域或硬幣種類，V/E 為頂點／邊，C 為背包容量，A/T 為目標值，w 為大整數內部字組寬度。複雜度採一般比較與整數運算模型；Python 大整數的位元成本另計。
 
@@ -118,3 +118,68 @@
 | unique_permutations | 不重複排列 | 最差 O(n! n) |
 | n_queens | 逐列擺放皇后 | 搜尋最差 O(n!)；輸出另需 O(n/解) |
 | subsets | 位元遮罩子集合 | O(2^n n) |
+
+## 往 CPE 三星題型延伸
+
+以下新增 26 個進階單元，與前面 54 個合計 **80 種**。同一演算法的 UVa 輸入輸出包裝不再重複計數。題目路線與官方來源見 [CPE_GUIDE.md](CPE_GUIDE.md)。
+
+### 進階圖論
+
+來源：[algorithms/advanced_graphs.py](algorithms/advanced_graphs.py)
+
+| 名稱 | 用途 | 複雜度／條件 |
+|---|---|---|
+| max_flow | Edmonds–Karp 最大流 | O(VE²) |
+| min_cost_flow | 帶負費用邊的逐次最短增廣路 | O(FVE)，拒絕可達負環 |
+| hopcroft_karp | 二分圖最大匹配 | O(E√V)，DFS 使用遞迴 |
+| hungarian | 矩形最小成本指派 | O(n²m)，n<=m |
+| bridges | 多重無向圖的橋 | O(V+E) |
+| articulation_points | 割點與 DFS 根特例 | O(V+E) |
+| euler_trail | Hierholzer，平行邊與自環 | O(V+E) |
+
+### 進階區間與樹
+
+來源：[algorithms/advanced_structures.py](algorithms/advanced_structures.py)
+
+| 名稱 | 用途 | 複雜度／條件 |
+|---|---|---|
+| LowestCommonAncestor | Binary lifting 最近共同祖先 | 建表 O(n log n)，查詢 O(log n) |
+| LazyRangeSum | 區間加值與總和的延遲標記 | 建樹 O(n)，操作 O(log n) |
+| PersistentKth | 持久化前綴版本與區間第 k 小 | 建樹 O(n log n)，查詢 O(log n) |
+| mo_distinct | Mo 離線區間不同值數 | O((n+q)√n) |
+
+### 計算幾何
+
+來源：[algorithms/advanced_geometry.py](algorithms/advanced_geometry.py)
+
+| 名稱 | 用途 | 複雜度／條件 |
+|---|---|---|
+| rectangle_union_area | 掃描線與覆蓋長度樹求矩形聯集 | O(n log n) |
+| convex_hull | Monotone chain 凸包 | O(n log n) |
+| closest_pair_squared | 分治最近點對，回傳平方距離 | O(n log²n) |
+
+### 進階字串
+
+來源：[algorithms/advanced_strings.py](algorithms/advanced_strings.py)
+
+| 名稱 | 用途 | 複雜度／條件 |
+|---|---|---|
+| suffix_array | 倍增後綴陣列 | O(n log²n) |
+| lcp_array | Kasai 相鄰後綴共同前綴 | O(n) |
+| AhoCorasick | Failure links 多模式匹配 | 建表與輸出相關；搜尋 O(n+matches) |
+
+### 競程進階 DP
+
+來源：[algorithms/advanced_dp.py](algorithms/advanced_dp.py)
+
+| 名稱 | 用途 | 複雜度／條件 |
+|---|---|---|
+| traveling_salesman | Held–Karp 旅行推銷員 | O(n²2^n) |
+| hamiltonian_paths | 恰好走訪每點的有向路徑數 | O((V+E)2^V) |
+| optimal_bst | 根深度 0 的最佳二元搜尋樹 | O(n³) |
+| cutting_sticks | 區間 DP 切木棒 | O(n³) |
+| distinct_subsequences | 不同子序列的計數 | O(nm) |
+| ferry_loading | 兩側容量與路徑還原 | O(nC) |
+| chopsticks | 兩短一長的筷子配組 | O(kn) |
+| tug_of_war | 人數限制的 bitset 分隊 | O(nk ceil(S/w)) 位元字組運算 |
+| longest_descending_path | 排序後四方向下降 DP | O(hw log(hw)) |

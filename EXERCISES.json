@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "title": "insertion_sort",
+    "source": "algorithms/sorting.py",
+    "entry": "insertion_sort"
+  },
+  {
+    "id": 2,
+    "title": "merge_sort",
+    "source": "algorithms/sorting.py",
+    "entry": "merge_sort"
+  },
+  {
+    "id": 3,
+    "title": "quick_sort",
+    "source": "algorithms/sorting.py",
+    "entry": "quick_sort"
+  },
+  {
+    "id": 4,
+    "title": "heap_sort",
+    "source": "algorithms/sorting.py",
+    "entry": "heap_sort"
+  },
+  {
+    "id": 5,
+    "title": "counting_sort",
+    "source": "algorithms/sorting.py",
+    "entry": "counting_sort"
+  },
+  {
+    "id": 6,
+    "title": "radix_sort",
+    "source": "algorithms/sorting.py",
+    "entry": "radix_sort"
+  },
+  {
+    "id": 7,
+    "title": "lower_bound",
+    "source": "algorithms/searching.py",
+    "entry": "lower_bound"
+  },
+  {
+    "id": 8,
+    "title": "upper_bound",
+    "source": "algorithms/searching.py",
+    "entry": "upper_bound"
+  },
+  {
+    "id": 9,
+    "title": "binary_search",
+    "source": "algorithms/searching.py",
+    "entry": "binary_search"
+  },
+  {
+    "id": 10,
+    "title": "rotated_search",
+    "source": "algorithms/searching.py",
+    "entry": "rotated_search"
+  },
+  {
+    "id": 11,
+    "title": "quickselect",
+    "source": "algorithms/searching.py",
+    "entry": "quickselect"
+  },
+  {
+    "id": 12,
+    "title": "generate_lps",
+    "source": "algorithms/strings.py",
+    "entry": "generate_lps"
+  },
+  {
+    "id": 13,
+    "title": "kmp",
+    "source": "algorithms/strings.py",
+    "entry": "kmp"
+  },
+  {
+    "id": 14,
+    "title": "z_function",
+    "source": "algorithms/strings.py",
+    "entry": "z_function"
+  },
+  {
+    "id": 15,
+    "title": "rabin_karp",
+    "source": "algorithms/strings.py",
+    "entry": "rabin_karp"
+  },
+  {
+    "id": 16,
+    "title": "manacher_length",
+    "source": "algorithms/strings.py",
+    "entry": "manacher_length"
+  },
+  {
+    "id": 17,
+    "title": "Trie",
+    "source": "algorithms/strings.py",
+    "entry": "Trie"
+  },
+  {
+    "id": 18,
+    "title": "DisjointSet",
+    "source": "algorithms/structures.py",
+    "entry": "DisjointSet"
+  },
+  {
+    "id": 19,
+    "title": "FenwickTree",
+    "source": "algorithms/structures.py",
+    "entry": "FenwickTree"
+  },
+  {
+    "id": 20,
+    "title": "SegmentTree",
+    "source": "algorithms/structures.py",
+    "entry": "SegmentTree"
+  },
+  {
+    "id": 21,
+    "title": "SparseTable",
+    "source": "algorithms/structures.py",
+    "entry": "SparseTable"
+  },
+  {
+    "id": 22,
+    "title": "bfs",
+    "source": "algorithms/graphs.py",
+    "entry": "bfs"
+  },
+  {
+    "id": 23,
+    "title": "dfs",
+    "source": "algorithms/graphs.py",
+    "entry": "dfs"
+  },
+  {
+    "id": 24,
+    "title": "topological_sort",
+    "source": "algorithms/graphs.py",
+    "entry": "topological_sort"
+  },
+  {
+    "id": 25,
+    "title": "dijkstra",
+    "source": "algorithms/graphs.py",
+    "entry": "dijkstra"
+  },
+  {
+    "id": 26,
+    "title": "bellman_ford",
+    "source": "algorithms/graphs.py",
+    "entry": "bellman_ford"
+  },
+  {
+    "id": 27,
+    "title": "floyd_warshall",
+    "source": "algorithms/graphs.py",
+    "entry": "floyd_warshall"
+  },
+  {
+    "id": 28,
+    "title": "kruskal",
+    "source": "algorithms/graphs.py",
+    "entry": "kruskal"
+  },
+  {
+    "id": 29,
+    "title": "prim",
+    "source": "algorithms/graphs.py",
+    "entry": "prim"
+  },
+  {
+    "id": 30,
+    "title": "strongly_connected_components",
+    "source": "algorithms/graphs.py",
+    "entry": "strongly_connected_components"
+  },
+  {
+    "id": 31,
+    "title": "bipartite_coloring",
+    "source": "algorithms/graphs.py",
+    "entry": "bipartite_coloring"
+  },
+  {
+    "id": 32,
+    "title": "lis_length",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "lis_length"
+  },
+  {
+    "id": 33,
+    "title": "lcs_length",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "lcs_length"
+  },
+  {
+    "id": 34,
+    "title": "edit_distance",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "edit_distance"
+  },
+  {
+    "id": 35,
+    "title": "knapsack",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "knapsack"
+  },
+  {
+    "id": 36,
+    "title": "coin_change",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "coin_change"
+  },
+  {
+    "id": 37,
+    "title": "subset_sum",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "subset_sum"
+  },
+  {
+    "id": 38,
+    "title": "matrix_chain",
+    "source": "algorithms/dynamic_programming.py",
+    "entry": "matrix_chain"
+  },
+  {
+    "id": 39,
+    "title": "gcd",
+    "source": "algorithms/number_theory.py",
+    "entry": "gcd"
+  },
+  {
+    "id": 40,
+    "title": "extended_gcd",
+    "source": "algorithms/number_theory.py",
+    "entry": "extended_gcd"
+  },
+  {
+    "id": 41,
+    "title": "modular_inverse",
+    "source": "algorithms/number_theory.py",
+    "entry": "modular_inverse"
+  },
+  {
+    "id": 42,
+    "title": "modular_power",
+    "source": "algorithms/number_theory.py",
+    "entry": "modular_power"
+  },
+  {
+    "id": 43,
+    "title": "sieve",
+    "source": "algorithms/number_theory.py",
+    "entry": "sieve"
+  },
+  {
+    "id": 44,
+    "title": "factorize",
+    "source": "algorithms/number_theory.py",
+    "entry": "factorize"
+  },
+  {
+    "id": 45,
+    "title": "chinese_remainder",
+    "source": "algorithms/number_theory.py",
+    "entry": "chinese_remainder"
+  },
+  {
+    "id": 46,
+    "title": "prefix_sums",
+    "source": "algorithms/sequences.py",
+    "entry": "prefix_sums"
+  },
+  {
+    "id": 47,
+    "title": "sliding_maximum",
+    "source": "algorithms/sequences.py",
+    "entry": "sliding_maximum"
+  },
+  {
+    "id": 48,
+    "title": "merge_intervals",
+    "source": "algorithms/sequences.py",
+    "entry": "merge_intervals"
+  },
+  {
+    "id": 49,
+    "title": "interval_scheduling",
+    "source": "algorithms/sequences.py",
+    "entry": "interval_scheduling"
+  },
+  {
+    "id": 50,
+    "title": "maximum_subarray",
+    "source": "algorithms/sequences.py",
+    "entry": "maximum_subarray"
+  },
+  {
+    "id": 51,
+    "title": "huffman_cost",
+    "source": "algorithms/sequences.py",
+    "entry": "huffman_cost"
+  },
+  {
+    "id": 52,
+    "title": "unique_permutations",
+    "source": "algorithms/backtracking.py",
+    "entry": "unique_permutations"
+  },
+  {
+    "id": 53,
+    "title": "n_queens",
+    "source": "algorithms/backtracking.py",
+    "entry": "n_queens"
+  },
+  {
+    "id": 54,
+    "title": "subsets",
+    "source": "algorithms/backtracking.py",
+    "entry": "subsets"
+  },
+  {
+    "id": 55,
+    "title": "max_flow",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "max_flow"
+  },
+  {
+    "id": 56,
+    "title": "min_cost_flow",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "min_cost_flow"
+  },
+  {
+    "id": 57,
+    "title": "hopcroft_karp",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "hopcroft_karp"
+  },
+  {
+    "id": 58,
+    "title": "hungarian",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "hungarian"
+  },
+  {
+    "id": 59,
+    "title": "bridges",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "bridges"
+  },
+  {
+    "id": 60,
+    "title": "articulation_points",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "articulation_points"
+  },
+  {
+    "id": 61,
+    "title": "euler_trail",
+    "source": "algorithms/advanced_graphs.py",
+    "entry": "euler_trail"
+  },
+  {
+    "id": 62,
+    "title": "LowestCommonAncestor",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "LowestCommonAncestor"
+  },
+  {
+    "id": 63,
+    "title": "LazyRangeSum",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "LazyRangeSum"
+  },
+  {
+    "id": 64,
+    "title": "PersistentKth",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "PersistentKth"
+  },
+  {
+    "id": 65,
+    "title": "mo_distinct",
+    "source": "algorithms/advanced_structures.py",
+    "entry": "mo_distinct"
+  },
+  {
+    "id": 66,
+    "title": "rectangle_union_area",
+    "source": "algorithms/advanced_geometry.py",
+    "entry": "rectangle_union_area"
+  },
+  {
+    "id": 67,
+    "title": "convex_hull",
+    "source": "algorithms/advanced_geometry.py",
+    "entry": "convex_hull"
+  },
+  {
+    "id": 68,
+    "title": "closest_pair_squared",
+    "source": "algorithms/advanced_geometry.py",
+    "entry": "closest_pair_squared"
+  },
+  {
+    "id": 69,
+    "title": "suffix_array",
+    "source": "algorithms/advanced_strings.py",
+    "entry": "suffix_array"
+  },
+  {
+    "id": 70,
+    "title": "lcp_array",
+    "source": "algorithms/advanced_strings.py",
+    "entry": "lcp_array"
+  },
+  {
+    "id": 71,
+    "title": "AhoCorasick",
+    "source": "algorithms/advanced_strings.py",
+    "entry": "AhoCorasick"
+  },
+  {
+    "id": 72,
+    "title": "traveling_salesman",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "traveling_salesman"
+  },
+  {
+    "id": 73,
+    "title": "hamiltonian_paths",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "hamiltonian_paths"
+  },
+  {
+    "id": 74,
+    "title": "optimal_bst",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "optimal_bst"
+  },
+  {
+    "id": 75,
+    "title": "cutting_sticks",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "cutting_sticks"
+  },
+  {
+    "id": 76,
+    "title": "distinct_subsequences",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "distinct_subsequences"
+  },
+  {
+    "id": 77,
+    "title": "ferry_loading",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "ferry_loading"
+  },
+  {
+    "id": 78,
+    "title": "chopsticks",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "chopsticks"
+  },
+  {
+    "id": 79,
+    "title": "tug_of_war",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "tug_of_war"
+  },
+  {
+    "id": 80,
+    "title": "longest_descending_path",
+    "source": "algorithms/advanced_dp.py",
+    "entry": "longest_descending_path"
+  }
+]
