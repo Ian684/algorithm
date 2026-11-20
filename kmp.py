@@ -30,6 +30,7 @@ def kmp(text , pattern):
             i += 1
             j += 1
         if j == len(pattern):
+            ans.append(i - j)
             j = lps[j - 1]
         elif i < len(text) and text[i] != pattern[j]:
             if j != 0:
